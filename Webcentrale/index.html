@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webcentrale</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&display=swap" rel="stylesheet">
+  <!-- SwiperJS styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+  <!-- HEADER & NAV -->
+  <header>
+    <div class="container nav-container">
+      <img class="logo" src="img/logo-webcentrale.png" alt="Webcentrale logo">
+      <nav>
+        <ul>
+          <li><a href="#maatwerk">Maatwerk</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#webshop-promo">Webshops</a></li>
+          <li><a href="#apps-website">Apps</a></li>
+          <li><a href="#websites">Websites</a></li>
+          <li><a href="#skills">Software</a></li>
+          <li><a href="#contact">Contactformulier</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+ 
+  <!-- HERO -->
+  <main>
+    <section class="hero-img">
+      <div class="container hero-content">
+        <div class="welcome">
+          <h1>Webcentrale</h1>
+          <p class="welcome-subtext">
+            software, webshops, apps en websites op maat, allemaal op één plek
+          </p>
+        </div>
+        <form class="contact" id="contact">
+          <div class="background-form">
+            <div class="flex-form">
+              <h3>Neem contact op</h3>
+              <img class="logo-form" src="img/logo-webcentrale.png" alt="Webcentrale logo klein">
+            </div>
+            <input class="form-item" placeholder="Naam" type="text" required>
+            <input class="form-item" placeholder="Bedrijfsnaam" type="text" required>
+            <input class="form-item" placeholder="Email" type="email" required>
+            <input class="form-item" placeholder="Tel" type="tel" required>
+            <button class="flex-button">Verzenden</button>
+          </div>
+        </form>
+      </div>
+    </section>
+ 
+    <!-- MAATWERK/USP's -->
+    <section class="maatwerk" id="maatwerk">
+      <div class="container">
+        <h2>Maatwerk</h2>
+        <div class="maatwerk-row">
+          <div class="maatwerk-card">
+            <div class="icon"><img src="img/software.jpg" alt="Software"></div>
+            <h4>SOFTWARE</h4>
+            <p>Wij maken maatwerk softwareoplossingen voor elk bedrijf, groot of klein.</p>
+          </div>
+          <div class="maatwerk-card">
+            <div class="icon"><img src="img/webshop.jpg" alt="Webshops"></div>
+            <h4>WEBSHOPS</h4>
+            <p>Een moderne webshop die automatisch verkoopt terwijl jij rust.</p>
+          </div>
+          <div class="maatwerk-card">
+            <div class="icon"><img src="img/website.jpg" alt="Websites"></div>
+            <h4>WEBSITES</h4>
+            <p>Van landingpage tot complete site, wij bouwen het.</p>
+          </div>
+          <div class="maatwerk-card">
+            <div class="icon"><img src="img/apps.jpg" alt="Apps"></div>
+            <h4>APPS</h4>
+            <p>Apps op maat voor Android, iOS en web.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- PORTFOLIO SLIDER -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <div class="swiper portfolioSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/portfolio-p1.jpg" alt="Portfolio project 1">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/portfolio-p2.jpg" alt="Portfolio project 2">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/portfolio-p3.jpg" alt="Portfolio project 3">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/portfolio-p4.jpg" alt="Portfolio project 4">
+            </div>
+          </div>
+          <!-- Arrows -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- WEBSHOP PROMO -->
+    <section class="webshop-promo" id="webshop-promo">
+      <div class="container">
+        <h2>Webshop</h2>
+        <p class="lead">
+          Een webshop die verkoopt terwijl jij rust? <b>Klik hier en start vandaag.</b>
+        </p>
+        <div class="webshop-row">
+          <img src="img/webshop1.png" alt="Webshop Art Pastry">
+          <img src="img/webshop2.png" alt="Webshop Ik help je">
+          <img src="img/webshop3.png" alt="Webshop Verkopen">
+        </div>
+      </div>
+    </section>
+ 
+    <!-- APPS/WEBSITE SLIDER -->
+    <section class="apps-website" id="apps-website">
+      <div class="container">
+        <h2>Apps versie van de website</h2>
+        <div class="swiper appSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/app1.png" alt="App logo 1">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/app2.png" alt="App logo 2">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/app3.png" alt="App logo 3">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/app4.png" alt="App logo 4">
+            </div>
+          </div>
+          <!-- Arrows -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- WEBSITES EXTRA -->
+    <section class="extra-website-section" id="websites">
+      <div class="container">
+        <h2>Websites</h2>
+        <p class="center">Bekijk voorbeelden van maatwerk websites uit ons portfolio.</p>
+      </div>
+    </section>
+ 
+    <!-- SKILLS BAR -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2>Software skills bar</h2>
+        <div class="skills-list">
+          <div class="skill-bar">
+            <span>HTML</span>
+            <div class="bar"><div class="fill" style="width: 95%"></div></div>
+          </div>
+          <div class="skill-bar">
+            <span>CSS</span>
+            <div class="bar"><div class="fill" style="width: 80%"></div></div>
+          </div>
+          <div class="skill-bar">
+            <span>Javascript</span>
+            <div class="bar"><div class="fill" style="width: 72%"></div></div>
+          </div>
+          <div class="skill-bar">
+            <span>React</span>
+            <div class="bar"><div class="fill" style="width: 85%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container footer-container">
+      <span class="footer-text">&copy; 2025 Webcentrale. Alle rechten voorbehouden.</span>
+    </div>
+  </footer>
+  <!-- SwiperJS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    // Portfolio slider
+    var portfolioSwiper = new Swiper('.portfolioSwiper', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: '.portfolio .swiper-button-next',
+        prevEl: '.portfolio .swiper-button-prev',
+      },
+      loop: true,
+      breakpoints: {
+        900: { slidesPerView: 3 },
+        600: { slidesPerView: 2 },
+        0: { slidesPerView: 1 }
+      }
+    });
+    // Apps/website slider
+    var appSwiper = new Swiper('.appSwiper', {
+      slidesPerView: 4,
+      spaceBetween: 20,
+      navigation: {
+        nextEl: '.apps-website .swiper-button-next',
+        prevEl: '.apps-website .swiper-button-prev',
+      },
+      loop: true,
+      breakpoints: {
+        900: { slidesPerView: 4 },
+        600: { slidesPerView: 2 },
+        0: { slidesPerView: 1 }
+      }
+    });
+ 
+    // Smooth scroll for anchor links
+    document.querySelectorAll('nav ul li a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href && href.startsWith('#')) {
+          e.preventDefault();
+          const target = document.querySelector(href);
+          if (target) {
+            window.scrollTo({
+              top: target.offsetTop - 80,
+              behavior: 'smooth'
+            });
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+ 
+ 
